@@ -13,6 +13,6 @@ def assign_rooms(names)
   while names.count > count
     count += 1
     binding.pry
-    "Hello #{names[count]}! You'll be assigned to room #{count.to_i}!"
+    puts "Hello #{names[count]}! You'll be assigned to room #{count.to_i}!"
   end
 end
