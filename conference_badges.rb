@@ -13,7 +13,7 @@ def assign_rooms(attendees)
   arr = []
   while attendees.count > count
     attendees.map do
-      arr << "Hello #{attendees[count]}! You'll be assigned to room #{count + 1}!"
+      arr << "Hello, #{attendees[count]}! You'll be assigned to room #{count + 1}!"
       count += 1
     end
   end
