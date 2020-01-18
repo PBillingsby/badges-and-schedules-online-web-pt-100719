@@ -8,7 +8,7 @@ def batch_badge_creator(arr)
   arr.map {|name| "Hello, my name is #{name}."}
 end
 
-def assign_rooms(names)
+def assign_rooms(attendees))
   count = 0
   while names.count > count
     puts "Hello #{names[count]}! You'll be assigned to room #{count + 1}!"
