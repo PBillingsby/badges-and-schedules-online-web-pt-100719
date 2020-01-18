@@ -12,6 +12,6 @@ def assign_rooms(names)
   count = 0
   while names.count > count
     count += 1
-    "Hello #{names}! You'll be assigned to room #{count}!"
+    "Hello #{names[count]}! You'll be assigned to room #{count}!"
   end
 end
