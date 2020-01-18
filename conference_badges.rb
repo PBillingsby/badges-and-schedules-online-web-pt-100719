@@ -9,7 +9,7 @@ def batch_badge_creator(arr)
 end
 
 def assign_rooms(names)
-  count = 1
+  count = 0
   while names.count > count
     puts "Hello #{names[count]}! You'll be assigned to room #{count.to_i}!"
     count += 1
