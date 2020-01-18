@@ -10,5 +10,8 @@ end
 
 def assign_rooms(names)
   count = 0
+  while names.count > count
+    count += 1
+    "Hello #{name}! You'll be assigned to room #{count}!"
   binding.pry
 end
