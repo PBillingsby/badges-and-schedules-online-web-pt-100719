@@ -11,7 +11,7 @@ end
 def assign_rooms(names)
   count = 0
   while names.count > count
-    names.map {|name| puts "Hello #{name[count]}! You'll be assigned to room #{count + 1}!"}
+    puts "Hello #{name[count]}! You'll be assigned to room #{count + 1}!"
     count += 1
   end
 end
